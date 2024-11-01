@@ -1,5 +1,7 @@
 This program was made for the TWOW Miraheze wiki, to quickly rename booksona images from numbers to their usernames, and to update the "List of EWOW Contestants Beginning with" quickly. If you aren't a TWOW wiki editor, this likely won't be much use to you, but you can fork it to suit your use if you know how to!
 
+Made 100% with Python but GitHub doesn't show that for some reason.
+
 Instructions:
 1. Download the ZIP file on Github, and once it is installed, unzip the file.
 2. If you did not install Python, install a version of Python that is version 3.12 or higher. During installation, make sure to select "Add Python to PATH" to make installing modules/libraries easier.
