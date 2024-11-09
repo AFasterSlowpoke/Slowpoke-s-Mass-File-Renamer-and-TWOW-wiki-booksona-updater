@@ -10,7 +10,7 @@ Instructions:
 5. Download the EWOW booksonas folder at https://mega.nz/file/9NtkDaAD#Zugp1jTybYblTLdEygWoE71SyXsxUcPmcIzeiQaiJfc and unzip the booksona folder.
 6. Open the contestant names file and find what booksonas you want to rename. For example, if I wanted to rename all contestants beginning with A, it would be line 220 (a) to line 1228 (Aùțũmņ).
 7. In explorer, shift-click on the file 00219.png then scroll down and shift-click on the file 01227.png (the numbers have to be offsetted by -1, as the files start with 00000.png) and copy them into my file renamer folder. Then, delete the old files that were there.
-8. Copy all the contestant names you want to convert, and put them in https://arraythis.com/ . Make sure to select "Yes" to numbers in quotes, and copy the "[ javascript ] var array_name = [ python ] list_name =" output.
+8. Copy all the contestant names you want to convert, and put them in https://listtoarray.com/ . Make sure to select "Square brackets" as the bracket type, and leave "Sort output in ascending order" and "Remove duplicate values" unchecked. Click "Convert" and copy the output.
 9. Right-click on "oh fuck i forgot to suffix png", click "More options" (on windows 11), and click "Edit with IDLE". Replace "the_list" with the output from arraythis. (Example: the_list = ["your","output","here"])
 10. Save the file and run the script. If it works correctly, it will have copied the output to your clipboard.
 11. Right-click on "rename", click "More options" (on windows 11), and click "Edit with IDLE". Replace "values" with the output copied from "oh fuck i forgot to suffix png". (Example: values = ["your.png","output.png","here.png"])
@@ -22,3 +22,5 @@ Instructions:
 17. Open "placeholder killer" in IDLE and paste the wikitable. Make sure the first |- is on the very first line of the string "wikitable" (wikitable = """|- ). Now run the script. It will copy the output to your clipboard.
 18. Go back onto the wiki page and paste in the output. It will remove the first |- for some reason, so make sure to add it back. Preview the page before publishing changes so you don't break anything!
 19. hopefully everything worked! if it didn't, then ask for help in the TWOW wiki Discord or DM me on Discord (afasterslowpoke).
+
+PSA: DO NOT USE https://arraythis.com/ WITHOUT AN ADBLOCKER. IT IS LIKELY TO REDIRECT YOU TO A SCAM WEBSITE. I have reported that website to Google, so hopefully, they will remove it from their search results.
